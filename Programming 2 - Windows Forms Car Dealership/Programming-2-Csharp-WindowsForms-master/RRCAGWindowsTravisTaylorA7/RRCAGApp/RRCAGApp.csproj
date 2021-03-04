@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{132711CE-D68C-4F34-B931-214A75F15476}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RRCAGApp</RootNamespace>
+    <AssemblyName>RRCAGApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Data.dll</HintPath>
+    </Reference>
+    <Reference Include="RRCAGLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RRCAGLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBoxRRCAGApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBoxRRCAGApp.Designer.cs">
+      <DependentUpon>AboutBoxRRCAGApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarWashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarWashForm.Designer.cs">
+      <DependentUpon>CarWashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarWashFragrances.cs" />
+    <Compile Include="CarWashInvoiceDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarWashInvoiceDisplay.Designer.cs">
+      <DependentUpon>CarWashInvoiceDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceForm.Designer.cs">
+      <DependentUpon>InvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarWashPackages.cs" />
+    <Compile Include="RRCAGForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RRCAGForm.Designer.cs">
+      <DependentUpon>RRCAGForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesQuoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesQuoteForm.Designer.cs">
+      <DependentUpon>SalesQuoteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VehicleDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VehicleDataForm.Designer.cs">
+      <DependentUpon>VehicleDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VehicleInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VehicleInformationForm.Designer.cs">
+      <DependentUpon>VehicleInformationForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBoxRRCAGApp.resx">
+      <DependentUpon>AboutBoxRRCAGApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarWashForm.resx">
+      <DependentUpon>CarWashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarWashInvoiceDisplay.resx">
+      <DependentUpon>CarWashInvoiceDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceForm.resx">
+      <DependentUpon>InvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RRCAGForm.resx">
+      <DependentUpon>RRCAGForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesQuoteForm.resx">
+      <DependentUpon>SalesQuoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VehicleDataForm.resx">
+      <DependentUpon>VehicleDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VehicleInformationForm.resx">
+      <DependentUpon>VehicleInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
