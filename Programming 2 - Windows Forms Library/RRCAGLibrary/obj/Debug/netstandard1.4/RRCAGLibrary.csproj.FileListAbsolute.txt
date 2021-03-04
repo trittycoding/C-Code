@@ -1,0 +1,24 @@
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.deps.json
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.dll
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.pdb
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.csprojAssemblyReference.cache
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.AssemblyInfo.cs
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.dll
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor1\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.pdb
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.deps.json
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.dll
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.pdb
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.csprojAssemblyReference.cache
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.AssemblyInfo.cs
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.dll
+C:\Users\Travis Taylor\source\repos\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.pdb
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.deps.json
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.dll
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\bin\Debug\netstandard1.4\RRCAGLibrary.pdb
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.csprojAssemblyReference.cache
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.AssemblyInfo.cs
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.dll
+C:\Users\Travis Taylor\source\repos\Unit 2\RRCAGLibraryTravisTaylor\RRCAGLibrary\obj\Debug\netstandard1.4\RRCAGLibrary.pdb
